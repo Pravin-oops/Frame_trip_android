@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Frame_trip</string>
+
+    <string name="permission_title">See your photos on a map</string>
+    <string name="permission_body">To place your photos on the map, the app reads the date and location saved in each camera photo. Your photos never leave this device.</string>
+    <string name="permission_grant">Allow photo access</string>
+    <string name="permission_denied_body">Photo access is turned off. Allow \"Photos and videos\" in the app settings to continue.</string>
+    <string name="open_settings">Open settings</string>
+
+    <string name="partial_access_banner">Showing only the photos you selected.</string>
+    <string name="partial_access_action">Select more</string>
+    <string name="show_my_location">Show my location</string>
+
+    <string name="scanning_photos">Scanning your camera photos…</string>
+    <string name="empty_title">No geotagged photos found</string>
+    <string name="empty_body">Photos in DCIM/Camera that have location data will appear here.</string>
+    <string name="empty_media_location_body">Access to photo locations is turned off, so the app can\'t tell where your photos were taken.</string>
+    <string name="allow">Allow</string>
+    <string name="scan_failed_title">Couldn\'t read your photos</string>
+    <string name="retry">Try again</string>
+
+    <plurals name="timeline_photo_count">
+        <item quantity="one">%1$s of %2$s photo</item>
+        <item quantity="other">%1$s of %2$s photos</item>
+    </plurals>
+    <string name="timeline_state_description">Showing photos taken up to %1$s</string>
+    <string name="no_app_to_open_photo">No app can open this photo</string>
 </resources>
